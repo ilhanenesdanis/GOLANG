@@ -2,23 +2,24 @@ package main
 
 import "fmt"
 
+const thy = "Türk Hava Yolları"
+const pgs = "Pegasus"
+
+//constant enumaration
+type Brand string
+
+const (
+	FACEBOOK  Brand = "Facebook"
+	MICROSOFT Brand = "Microsoft"
+)
+
 func main() {
-	//Operators
-	a := 10
-	b := 12
+	//Constants
 
-	total := a + b
+	fmt.Println(thy)
 
-	fmt.Println(total)
+	fmt.Println(FACEBOOK)
 
-	total = total - 3
+	fmt.Println(MICROSOFT)
 
-	fmt.Println(total)
-
-	total *= 20
-
-	fmt.Println(total)
-
-	total = 10 / 2
-	fmt.Println(total)
 }
