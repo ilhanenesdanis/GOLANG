@@ -1,34 +1,24 @@
 package main
 
+import "fmt"
+
 func main() {
-	/*
-				var message string = "Merhaba go!"
+	//Operators
+	a := 10
+	b := 12
 
-				fmt.Println(message)
+	total := a + b
 
-				var message = "Merhaba Go lang"
+	fmt.Println(total)
 
-				fmt.Println(message)
+	total = total - 3
 
-				var a, b, c int
+	fmt.Println(total)
 
-				a = 1
-				b = 34
-				c = 3
+	total *= 20
 
-				fmt.Println(a)
-				fmt.Println(b)
-				fmt.Println(c)
+	fmt.Println(total)
 
-				var message = "Hello World"
-
-			    var a, b, c = 3, true, 4.5
-
-			    fmt.Println(message, a, b, c)
-
-		u := 55
-
-		fmt.Println(u)
-	*/
-
+	total = 10 / 2
+	fmt.Println(total)
 }
