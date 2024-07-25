@@ -1,25 +1,27 @@
 package main
 
-import "fmt"
-
-const thy = "Türk Hava Yolları"
-const pgs = "Pegasus"
-
-//constant enumaration
-type Brand string
-
-const (
-	FACEBOOK  Brand = "Facebook"
-	MICROSOFT Brand = "Microsoft"
+import (
+	"fmt"
+	"strconv"
 )
 
 func main() {
-	//Constants
+	//convert
 
-	fmt.Println(thy)
+	var myStyring = "1"
+	var x = 10
 
-	fmt.Println(FACEBOOK)
+	var f float32 = 2.0
 
-	fmt.Println(MICROSOFT)
+	fmt.Println(myStyring, x, f)
 
+	//string to int
+
+	number, _ := strconv.Atoi(myStyring)
+
+	fmt.Println(number)
+
+	result := number + 2
+
+	fmt.Println(result)
 }
