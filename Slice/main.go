@@ -29,4 +29,15 @@ func main() {
 	fmt.Println(a, b)
 	fmt.Println(names)
 
+	var colors = []string{"Red", "Green", "Blue"}
+
+	fmt.Println(colors)
+
+	colors = append(colors, "Purple")
+	fmt.Println(colors)
+
+	colors = append(colors[1:len(colors)])
+
+	fmt.Println(colors)
+
 }
