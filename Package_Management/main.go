@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 	"strings"
+	"utils/utils"
 )
 
 func main() {
@@ -22,5 +23,8 @@ func main() {
 	fmt.Println(strings.HasPrefix("dosya.rar", "rar"))
 
 	fmt.Println(strings.Index("test", "e"))
+
+	n1, l1 := utils.FullName("İlhan Enes", "Daniş")
+	fmt.Printf("FullName: %v, number of chars :%v\n\n", n1, l1)
 
 }
