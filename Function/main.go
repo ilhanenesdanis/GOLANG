@@ -62,4 +62,9 @@ func main() {
 
 	num, sm := addFunc(2, 4)
 	println(num, sm)
+
+	defer fmt.Println("Hello")
+
+	fmt.Println("Go")
+
 }
